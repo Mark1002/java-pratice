@@ -10,14 +10,9 @@ import java.util.Optional;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class StreamTest {
+public class OptionalTest {
     
-    private static final Logger logger = LogManager.getLogger(StreamTest.class.getName());
-
-    @Test
-    void testInt() {
-        assertEquals(10, 10);
-    }
+    private static final Logger logger = LogManager.getLogger(OptionalTest.class.getName());
 
     @Test
     public void whenCreateEmptyOptionalThenNull() {
